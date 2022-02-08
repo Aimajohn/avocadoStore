@@ -1,3 +1,66 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+@layer components{
+    .heroContainer{
+        @apply w-11/12 flex shadow-xl mx-auto  p-2 pl-8 max-w-4xl relative bg-white rounded-lg
+    }
+    .heroTitle{
+        @apply text-3xl font-semibold my-5
+    }
+    .button{
+        @apply p-2 w-28 border-2 border-solid  m-2 rounded-md font-medium shadow-sm 
+    }
+    .CTA{
+        @apply bg-green-700 text-white border-green-700 hover:bg-green-900
+    }
+    .moreInfo{
+        @apply text-gray-600 border-gray-500 hover:bg-gray-300
+    }
+    .heroDescription{
+        @apply my-3 
+    }
+    .heroInfoContainer{
+        @apply flex flex-col justify-center
+    }
+
+    .appProductsContainer{
+        @apply flex flex-wrap justify-evenly max-w-screen-xl pt-10 mx-auto
+    }
+    .productContainer{
+        @apply border-solid border-2 rounded-xl flex-col m-5 py-3 px-5 cursor-pointer hover:bg-green-50 hover:border-green-500
+    }
+    .productTitle{
+        @apply text-xl font-semibold text-green-800 my-2
+    }
+    .productSubMenu{
+        @apply flex flex-row justify-between items-center
+    }
+    .heroPrice, .productPrice{
+        @apply font-semibold font-sans 
+    }
+    
+    .productPrice{
+        @apply rounded-full bg-green-700 text-white px-2 py-1
+    }
+    .division {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .division svg {
+        position: relative;
+        display: block;
+        width: calc(111% + 1.3px);
+        height: 127px;
+    }
+    
+    .division .shape-fill {
+        fill: #047857;
+    }
+}
