@@ -1,0 +1,171 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+.heroContainer{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 91.666667%;
+  max-width: 56rem;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding: 0.5rem;
+  padding-left: 2rem;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.heroTitle{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600
+}
+
+.button{
+  margin: 0.5rem;
+  width: 7rem;
+  border-radius: 0.375rem;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5rem;
+  font-weight: 500;
+  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.CTA{
+  --tw-border-opacity: 1;
+  border-color: rgba(4, 120, 87, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(4, 120, 87, var(--tw-bg-opacity))
+}
+
+.CTA:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(6, 78, 59, var(--tw-bg-opacity))
+}
+
+.CTA{
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+.moreInfo{
+  --tw-border-opacity: 1;
+  border-color: rgba(107, 114, 128, var(--tw-border-opacity))
+}
+
+.moreInfo:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity))
+}
+
+.moreInfo{
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity))
+}
+
+.heroDescription{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem
+}
+
+.heroInfoContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.appProductsContainer{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 2.5rem
+}
+
+.productContainer{
+  margin: 1.25rem;
+  cursor: pointer;
+  flex-direction: column;
+  border-radius: 0.75rem;
+  border-width: 2px;
+  border-style: solid
+}
+
+.productContainer:hover{
+  --tw-border-opacity: 1;
+  border-color: rgba(16, 185, 129, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(236, 253, 245, var(--tw-bg-opacity))
+}
+
+.productContainer{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem
+}
+
+.productTitle{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(6, 95, 70, var(--tw-text-opacity))
+}
+
+.productSubMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between
+}
+
+.heroPrice, .productPrice{
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600
+}
+
+.productPrice{
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(4, 120, 87, var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+.division {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.division svg {
+  position: relative;
+  display: block;
+  width: calc(111% + 1.3px);
+  height: 127px;
+}
+
+.division .shape-fill {
+  fill: #047857;
+}
