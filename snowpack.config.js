@@ -5,7 +5,7 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: 'https://Aimajoke.github.io/avocadoStore',
   },
   devOptions:{
     tailwindConfig: './tailwind.config.js'
